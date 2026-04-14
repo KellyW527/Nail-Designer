@@ -1,0 +1,68 @@
+import type { Scene } from "@/types";
+
+export const mockScenes: Scene[] = [
+  {
+    id: "school",
+    name: "学校",
+    preview: "/scenes/school/school-01.jpg",
+    backgroundUrl: "/scenes/school/school-01.jpg",
+    lightingMode: "natural",
+    tags: ["清爽", "日常", "学生感"],
+  },
+  {
+    id: "office",
+    name: "办公室",
+    preview: "/scenes/office/office-01.jpg",
+    backgroundUrl: "/scenes/office/office-01.jpg",
+    lightingMode: "cool",
+    tags: ["通勤", "克制", "正式"],
+  },
+  {
+    id: "library",
+    name: "图书馆",
+    preview: "/scenes/library/library-01.jpg",
+    backgroundUrl: "/scenes/library/library-01.jpg",
+    lightingMode: "natural",
+    tags: ["安静", "干净", "低调"],
+  },
+  {
+    id: "restaurant",
+    name: "餐厅",
+    preview: "/scenes/restaurant/restaurant-01.jpg",
+    backgroundUrl: "/scenes/restaurant/restaurant-01.jpg",
+    lightingMode: "warm",
+    tags: ["约会", "精致", "氛围感"],
+  },
+  {
+    id: "cafe",
+    name: "咖啡馆",
+    preview: "/scenes/cafe/cafe-01.jpg",
+    backgroundUrl: "/scenes/cafe/cafe-01.jpg",
+    lightingMode: "warm",
+    tags: ["慵懒", "文艺", "奶咖"],
+  },
+  {
+    id: "ktv",
+    name: "KTV",
+    preview: "/scenes/ktv/ktv-01.jpg",
+    backgroundUrl: "/scenes/ktv/ktv-01.jpg",
+    lightingMode: "night",
+    tags: ["派对", "闪耀", "夜色"],
+  },
+  {
+    id: "date",
+    name: "约会",
+    preview: "/scenes/date/date-01.jpg",
+    backgroundUrl: "/scenes/date/date-01.jpg",
+    lightingMode: "warm",
+    tags: ["浪漫", "柔粉", "暖光"],
+  },
+  {
+    id: "commute",
+    name: "日常通勤",
+    preview: "/scenes/commute/commute-01.jpg",
+    backgroundUrl: "/scenes/commute/commute-01.jpg",
+    lightingMode: "natural",
+    tags: ["城市", "晨间", "自然"],
+  },
+];
